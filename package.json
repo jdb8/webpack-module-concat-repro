@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "rm -rf build && webpack --display-optimization-bailout && grep CONCAT build/js/output.js"
+  },
+  "devDependencies": {
+    "webpack-merge": "4.1.0",
+    "base_configs": "file:./base_configs"
+  }
+}
